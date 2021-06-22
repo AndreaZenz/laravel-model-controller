@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-container{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(80, 72, 72);
+    .card{
+        border: 1px solid black;
+        box-shadow: 1px solid white;
+        width: calc(100% / 3);
+        margin: 12px;
+        background-color: white;
+        h1{
+            margin: 6px;
+        }
+        p{
+            margin: 18px;
+        }
+    }
+}
+
+
